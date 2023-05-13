@@ -153,13 +153,15 @@ const Google = styled.button`
     align-items: center;
     height: 56px;
     width: 100%;
+    cursor: pointer;
     border-radius: 28px;
     vertical-align: middle;
     transition-duration: 167ms;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.6);
     &:hover {
-        
+        background-color: rgba(207, 207, 207, 0.25);
+        color: rgba(0, 0, 0, 0.75);
     }
 `;
 
