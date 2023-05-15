@@ -9,7 +9,9 @@ const Login = (props) => {
                 </a>
                 <div>
                     <Join>Join now</Join>
-                    <SignIn>Sign in</SignIn>
+                    <SignIn>
+                        <a href="/home">Sign in</a>
+                        </SignIn>
                 </div>
             </Nav>
             <Section>
@@ -83,6 +85,10 @@ const SignIn = styled.a`
     background-color: rgba(0, 0, 0, 0);
     &:hover {
         background-color: rgba(112, 181, 249, 0.15);
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
     }
 `;
 
