@@ -60,7 +60,11 @@ const Title = styled.div`
     justify-content: space-between;
     font-size: 16px;
     width: 100%;
-    color: rgba(0, 0, 0, 0.6)
+    color: rgba(0, 0, 0, 0.6);
+
+    img {
+        cursor: pointer;
+    }
 `;
 
 const FeedList = styled.ul`
